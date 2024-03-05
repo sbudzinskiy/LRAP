@@ -1,0 +1,9 @@
+#!/bin/bash
+#SBATCH -J lro_n2000_r1600
+#SBATCH --account=p70700
+#SBATCH --partition=zen3_0512_a100x2
+#SBATCH --qos=p70700_a100dual
+#SBATCH --gres=gpu:0
+#SBATCH --mail-type=BEGIN,END,FAIL
+#SBATCH --mail-user=stanislav.budzinskiy@univie.ac.at
+./run_lro_n2000_r1600.sh
