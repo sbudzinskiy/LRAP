@@ -1,0 +1,3 @@
+[submodule "MARIA-Fortran"]
+	path = MARIA-Fortran
+	url = https://github.com/sbudzinskiy/MARIA-Fortran
